@@ -1,0 +1,17 @@
+name: notesectioning
+channels:
+  - conda-forge
+dependencies:
+  - weasyprint
+  - ipykernel
+  - pandas
+  - environs
+  - conda-forge::azure-identity
+  - tqdm
+  - openai
+  - openpyxl
+  - rapidfuzz
+  - tiktoken
+  - matplotlib
+  - seaborn
+  - nbconvert

@@ -1,0 +1,32 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "city": {
+            "type": "string"
+        },
+        "visits": {
+            "type": "object",
+            "properties": {
+                "visit1": {
+                    "type": "string"
+                },
+                "visit2": {
+                    "type": "string"
+                },
+                "visit3": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "visit1",
+                "visit2",
+                "visit3"
+            ]
+        }
+    },
+    "required": [
+        "city",
+        "visits"
+    ]
+}

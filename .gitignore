@@ -1,0 +1,10 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*.txt
+*.html
+*.pdf
+**/__pycache__/
+.env
+outputs/
+*.DS_Store
+data/

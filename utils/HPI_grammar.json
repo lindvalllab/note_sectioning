@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "HPI_Interval_Hx_begin": {
+            "type": "string",
+            "minLength": 40,
+            "maxLength": 60
+        },
+        "HPI_Interval_Hx_end": {
+            "type": "string",
+            "minLength": 40,
+            "maxLength": 60
+        }
+    },
+    "required": [
+        "HPI_Interval_Hx_begin",
+        "HPI_Interval_Hx_end"
+    ]
+}
