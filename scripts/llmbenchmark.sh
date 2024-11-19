@@ -9,12 +9,12 @@ usage() {
     echo "Usage: $0 --model <path_to_model> --context <context_size> --runs <number_of_runs>"
     echo ""
     echo "Options:"
-    echo "  --model <path>       Path to the LLaMA model file (e.g., ../../llama.cpp/models_custom/Phi-3.5-mini-instruct-Q6_K_L.gguf) [required]"
+    echo "  --model <path>       Path to the LLaMA model file (e.g., ../models/Phi-3.5-mini-instruct-Q6_K_L.gguf) [required]"
     echo "  --context <size>     Context size (-c flag when running the server) [required]"
     echo "  --runs <number>      Number of HTTP POST requests to make for benchmarking [required]"
     echo ""
     echo "Example:"
-    echo "  ./llmbenchmark.sh --model models_custom/Phi-3.5-mini-instruct-Q6_K_L.gguf --context 4096 --runs 100"
+    echo "  ./llmbenchmark.sh --model ../models/Phi-3.5-mini-instruct-Q6_K_L.gguf --context 4096 --runs 100"
     exit 1
 }
 
